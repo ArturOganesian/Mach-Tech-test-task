@@ -1,0 +1,16 @@
+.global-final-info {
+  border: 1px solid grey;
+  padding: 26px;
+  text-align: center;
+}
+.global-final-info h2 {
+  padding-top: 2px;
+  padding-bottom: 26px;
+}
+.global-final-info p {
+  color: grey;
+}
+
+.form-button {
+  margin: 0 20px;
+}

@@ -1,0 +1,19 @@
+@import '../../variables/variables.scss';
+
+.global-board {
+  background-color: grey;
+  width: 183px;
+  height: 363px;
+  padding: 7px;
+  display: $display;
+  flex-direction: $columnDirection;
+  text-align: $center;
+  color: $colorWhite;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  overflow: scroll;
+  position: absolute;
+  left: 670px;
+  top: 300px;
+  
+}
