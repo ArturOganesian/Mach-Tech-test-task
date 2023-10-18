@@ -1,28 +1,21 @@
- @import '../variables/variables.scss';
- 
- @mixin input($width, $height) {
+@import "../variables/variables.scss";
+
+@mixin input($width, $height) {
   width: $width;
   height: $height;
 }
 
 .global-form {
-  display: $display
-  ;
+  display: $display;
   justify-content: space-around;
- 
-  
 }
 .inputs {
   display: $display;
   flex-direction: $columnDirection;
   border: $border;
   padding: $paddBottom;
-
 }
 .input {
   @include input(350px, 40px);
   padding: 30px;
-  
 }
-
-

@@ -1,11 +1,11 @@
-@import './variables/variables.scss';
+@import "./variables/variables.scss";
 
-body{
-   
-    h1,h2{
-        font-family: $font-family;   
-    }
-    p{
-        font-size: 18px;
-    }
+body {
+  h1,
+  h2 {
+    font-family: $font-family;
+  }
+  p {
+    font-size: 18px;
+  }
 }

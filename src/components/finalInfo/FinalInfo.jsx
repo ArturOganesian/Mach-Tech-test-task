@@ -13,12 +13,12 @@ const FinalInfo = ({
 }) => {
   const [showBoard, setShowBoard] = useState(false);
 
-  const showByClick =  () => {
-    setShowBoard(true)
-  }
-  const closeByClick =  () => {
-    setShowBoard(false)
-  }
+  const showByClick = () => {
+    setShowBoard(true);
+  };
+  const closeByClick = () => {
+    setShowBoard(false);
+  };
   const width = valueWidth;
   const length = valueLength;
   const quantity = valueQuantity;
@@ -41,17 +41,18 @@ const FinalInfo = ({
         <span>Քանի տախտակ է հարկավոր/</span>
         {valueQuantityNeed}
       </p>
-      <Button  onClick={showByClick} className="form-button">
-            Ավելացնել
+      <Button onClick={showByClick} className="form-button">
+        Ավելացնել
       </Button>
       <Button onClick={closeByClick}>Ջնջել</Button>
-      {showBoard &&   <Board
-        arr={valueArr}
-        Length={valueLength}
-        Width={valueWidth}
-        quantityDiv={valueQuantityArr}
-      />}
-    
+      {showBoard && (
+        <Board
+          arr={valueArr}
+          Length={valueLength}
+          Width={valueWidth}
+          quantityDiv={valueQuantityArr}
+        />
+      )}
     </div>
   );
 };
