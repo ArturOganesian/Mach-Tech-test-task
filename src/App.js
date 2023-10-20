@@ -1,11 +1,14 @@
+import { useState } from "react";
 import Form from "./Forms/Form";
-import FinalInfo from "./components/finalInfo/FinalInfo";
+import Board from "./components/board/Board";
+
 import "./app.css";
 
 function App() {
   return (
     <div className="app">
-      <Form />
+      <Board />
+
     </div>
   );
 }
