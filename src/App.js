@@ -1,14 +1,11 @@
-import { useState } from "react";
-import Form from "./Forms/Form";
-import Board from "./components/board/Board";
-
-import "./app.css";
+import GlobalBoard from "./components/board/GlobalBoard";
+import "./App.css";
+// import Form from "./Forms/Form";
 
 function App() {
   return (
     <div className="app">
-      <Board />
-
+      <GlobalBoard />
     </div>
   );
 }

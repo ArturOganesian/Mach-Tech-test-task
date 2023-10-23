@@ -1,6 +1,7 @@
 @import "./variables/variables.scss";
 
 body {
+  padding: $paddBottom;
   h1,
   h2 {
     font-family: $font-family;
